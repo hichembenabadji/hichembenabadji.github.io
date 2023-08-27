@@ -49,8 +49,6 @@ class MainPage extends StatelessWidget {
         builder: (context, state) {
           return Stack(
             children: [
-    
-         
               // if (!state.isDarkThemeOn)
               Stack(
                 children: [
@@ -60,7 +58,7 @@ class MainPage extends StatelessWidget {
                     mobile: _defaultBackgroundImage(width, height, "assets/imgs/background_image_1000x750.jpg"),
                   ),
                   Container(
-                    color: Colors.black.withOpacity(0.4),
+                    color: Colors.black.withOpacity(0.2),
                   ),
                 ],
               ),
