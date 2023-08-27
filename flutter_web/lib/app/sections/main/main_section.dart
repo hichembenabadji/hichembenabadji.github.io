@@ -96,7 +96,7 @@ class MainPage extends StatelessWidget {
                 Responsive(
                   desktop: _defaultBackgroundImage(width, height, "assets/imgs/5424482.jpg"),
                   tablet: _defaultBackgroundImage(width, height,"assets/imgs/5424482.jpg"),
-                  mobile: _defaultBackgroundImage(width, height, "background_image_1000x750.jpg"),
+                  mobile: _defaultBackgroundImage(width, height, "assets/imgs/background_image_1000x750.jpg"),
                 ),
               _Body(),
               const ArrowOnTop()

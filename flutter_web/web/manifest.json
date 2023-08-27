@@ -1,11 +1,11 @@
 {
-    "name": "mysite",
-    "short_name": "mysite",
+    "name": "Hichem Benabadji portfolio",
+    "short_name": "Hichem Benabadji portfolio",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#FFFFFF",
-    "description": "A new Flutter project.",
+    "description": "Hichem Benabadji portfolio",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
