@@ -92,12 +92,19 @@ class MainPage extends StatelessWidget {
                   ),
                 ),
               ),
-              if (!state.isDarkThemeOn)
-                Responsive(
-                  desktop: _defaultBackgroundImage(width, height, "assets/imgs/5424482.jpg"),
-                  tablet: _defaultBackgroundImage(width, height,"assets/imgs/5424482.jpg"),
-                  mobile: _defaultBackgroundImage(width, height, "assets/imgs/background_image_1000x750.jpg"),
-                ),
+              // if (!state.isDarkThemeOn)
+              Stack(
+                children: [
+                  Responsive(
+                    desktop: _defaultBackgroundImage(width, height, "assets/imgs/5424482.jpg"),
+                    tablet: _defaultBackgroundImage(width, height, "assets/imgs/5424482.jpg"),
+                    mobile: _defaultBackgroundImage(width, height, "assets/imgs/background_image_1000x750.jpg"),
+                  ),
+                  Container(
+                    color: Colors.black.withOpacity(0.7),
+                  ),
+                ],
+              ),
               _Body(),
               const ArrowOnTop()
             ],
