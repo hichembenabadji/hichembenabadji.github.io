@@ -93,22 +93,32 @@ class MainPage extends StatelessWidget {
                 ),
               ),
               if (!state.isDarkThemeOn)
-                Align(
-                  alignment: Alignment.center,
-                  child: Image.asset(
-                    'assets/imgs/5424482.JPG',
-                    opacity: const AlwaysStoppedAnimation<double>(0.2),
-                    width: width,
-                    height: height,
-                    fit: BoxFit.cover,
-                    alignment: Alignment.topCenter,
+                Responsive(
+                  desktop: _defaultBackgroundImage(width, height),
+                  mobile: Container(
+                    color: Colors.black.withOpacity(0.2),
                   ),
+                  tablet: _defaultBackgroundImage(width, height),
                 ),
               _Body(),
               const ArrowOnTop()
             ],
           );
         },
+      ),
+    );
+  }
+
+  Align _defaultBackgroundImage(double width, double height) {
+    return Align(
+      alignment: Alignment.center,
+      child: Image.asset(
+        'assets/imgs/5424482.jpg',
+        opacity: const AlwaysStoppedAnimation<double>(0.2),
+        width: width,
+        height: height,
+        fit: BoxFit.cover,
+        alignment: Alignment.topCenter,
       ),
     );
   }
