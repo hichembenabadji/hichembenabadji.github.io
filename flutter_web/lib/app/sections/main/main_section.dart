@@ -94,11 +94,9 @@ class MainPage extends StatelessWidget {
               ),
               if (!state.isDarkThemeOn)
                 Responsive(
-                  desktop: _defaultBackgroundImage(width, height),
-                  mobile: Container(
-                    color: Colors.black.withOpacity(0.2),
-                  ),
-                  tablet: _defaultBackgroundImage(width, height),
+                  desktop: _defaultBackgroundImage(width, height, "assets/imgs/5424482.jpg"),
+                  tablet: _defaultBackgroundImage(width, height,"assets/imgs/5424482.jpg"),
+                  mobile: _defaultBackgroundImage(width, height, "background_image_1000x750.jpg"),
                 ),
               _Body(),
               const ArrowOnTop()
@@ -109,11 +107,11 @@ class MainPage extends StatelessWidget {
     );
   }
 
-  Align _defaultBackgroundImage(double width, double height) {
+  Widget _defaultBackgroundImage(double width, double height, String imagePath) {
     return Align(
       alignment: Alignment.center,
       child: Image.asset(
-        'assets/imgs/5424482.jpg',
+        imagePath,
         opacity: const AlwaysStoppedAnimation<double>(0.2),
         width: width,
         height: height,
