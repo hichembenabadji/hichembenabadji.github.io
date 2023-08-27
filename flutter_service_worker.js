@@ -29,7 +29,7 @@ const RESOURCES = {
 "assets/assets/imgs/QuizFootbal.png": "6706f9eb2d665bf0b7b0ab1226b39e48",
 "assets/FontManifest.json": "663783f541c46e7f04c244ce710d1b61",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/NOTICES": "1bb43df0be18cdb65d20ae0ef2ee643e",
+"assets/NOTICES": "a97e1cdc08134970785c436a0e0c3d09",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
 "canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
@@ -41,9 +41,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "7f13e21f21fdaa5364b8f83bb3438d2b",
 "icons/Icon-maskable-192.png": "c1544e9917ef0745a396d0e43e307ed9",
 "icons/Icon-maskable-512.png": "7f13e21f21fdaa5364b8f83bb3438d2b",
-"index.html": "b4e1636b28e9173d1275558d73dad1c4",
-"/": "b4e1636b28e9173d1275558d73dad1c4",
-"main.dart.js": "0ed78d3e60df332a6b5ea37aff2c6007",
+"index.html": "f208eed2b0c98f1b5fcace0c973285d3",
+"/": "f208eed2b0c98f1b5fcace0c973285d3",
+"main.dart.js": "fee0ac61870f5668192e5885b935a143",
 "manifest.json": "f71da04cb8925728a8a67660d00d30d8",
 "version.json": "f124181e58b12572810925130e6735b8"
 };

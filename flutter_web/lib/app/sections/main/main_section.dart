@@ -101,7 +101,7 @@ class MainPage extends StatelessWidget {
                     mobile: _defaultBackgroundImage(width, height, "assets/imgs/background_image_1000x750.jpg"),
                   ),
                   Container(
-                    color: Colors.black.withOpacity(0.7),
+                    color: Colors.black.withOpacity(0.5),
                   ),
                 ],
               ),
